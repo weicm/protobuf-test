@@ -1,0 +1,1 @@
+c:\install\protobuf\bin\protoc.exe  --java_out=src\main\java src\main\resources\person-entity.proto

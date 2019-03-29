@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "cn.jldata";
+
+message SearchRequest {
+    int32 num1 = 1;
+    int32 num2 = 2;
+}
+
+message SearchResponse {
+    int32 id = 1;
+}
+
+

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "src/main/resources/entities.proto";
+option java_generic_services = true;
+option java_package = "cn.jldata";
+service SearchService {
+    rpc Search (SearchRequest) returns (SearchResponse);
+}
